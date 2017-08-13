@@ -8,10 +8,15 @@
             "email": "bvisonl@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
       "php": ">=5.6.0",
       "symfony/framework-bundle": "^2.8",
       "symfony/security-bundle": "^2.8"      
+    },
+    "autoload": {
+        "psr-4": {
+            "Bvisonl\\InactivityBundle\\": ""
+        }    
     }
 }
