@@ -1,5 +1,5 @@
 {
-  "name": "bvisonl/inactivitybundle",
+  "name": "bvisonl/inactivity-bundle",
   "type": "symfony-bundle",
   "description": "Symfony BvisonlInactivityBundle",
   "keywords": ["Inactivity management"],
