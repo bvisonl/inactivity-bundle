@@ -1,0 +1,3 @@
+bvisonl_inactivity_ping:
+    path: /ping
+    defaults: { _controller: BvisonlInactivityBundle:Inactivity:ping }

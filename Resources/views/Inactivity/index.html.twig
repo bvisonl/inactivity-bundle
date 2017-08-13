@@ -1,0 +1,9 @@
+Hello World!
+
+
+{% block javascripts %}
+    {% javascripts '@BvisonlInactivityBundle/Resources/public/js/inactivity.handler.js' %}
+        <script type="text/javascript" src="{{ asset_url }}">
+        </script>
+    {% endjavascripts %}
+{% endblock javascripts %}
