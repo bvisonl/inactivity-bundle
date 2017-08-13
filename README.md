@@ -75,6 +75,20 @@ twig:
 </script>
 ```
 
+6. Add the routes of the bundle in the routing.yml if using default ping function:
+```
+# BvisonlInactivityBundle Routes
+bvisonl_inactivity:
+    resource: "@BvisonlInactivityBundle/Resources/config/routing.yml"
+```
+
+7. Remember to clear your cache, install assets, and if using assetic to install them as well
+```
+php app/console assets:install --env=dev
+php app/console assetic:dump --env=dev
+php app/console cache:clear --env=dev
+```
+
 ## How it works
 
 Basically, if configured as shown above, the process divides itself in 2:
